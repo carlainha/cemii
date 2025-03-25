@@ -17,6 +17,7 @@ export const styles = StyleSheet.create({
       },
 
       texto:{
-        color:'#5b3000'
+        color:'#5b3000',
+        fontFamily:'Quicksand-Regular',
       }
 });

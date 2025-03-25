@@ -8,8 +8,9 @@ export const styles = StyleSheet.create({
   },
   
   imagem: {
-    width:'50%',
-    height:300,
-    marginTop: 20,
+    width:300,
+    height:350,
+    marginTop:100,
+
   },
 });
