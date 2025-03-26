@@ -5,7 +5,12 @@ import { styles } from './BotaoStyles';
 
 import * as Font from "expo-font";
   
-export function Botao() {
+
+type Propriedades = {
+  texto: string;
+};
+
+export function Botao(props: Propriedades) {
 
   const [fontsLoaded, setFontsLoaded] = useState(false);
 
@@ -19,15 +24,12 @@ export function Botao() {
     loadFonts();
   }, []);
 
-  if (!fontsLoaded) {
-    return <Text>Carregando fontes...</Text>;
-  }
 
   return (
     <View style={styles.container}>
         <TouchableOpacity
         style={styles.botao}>
-            <Text  style={{ fontFamily: "Quicksand-Regular", fontSize: 20 }}>Cadastra-se</Text>
+            <Text  style={styles.texto}>{props.texto}</Text>
         </TouchableOpacity>
     </View>
   );

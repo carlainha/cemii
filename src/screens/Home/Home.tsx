@@ -12,7 +12,7 @@ export function Home() {
       source={Logo}
       style={styles.imagem}/>
         
-      <Botao/>
+      <Botao texto='Cadastrar-se'/>
     </View>
   );
 }
