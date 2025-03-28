@@ -26,7 +26,7 @@ export function Botao(props: Propriedades) {
 
 
   return (
-    <View style={styles.container}>
+    <View>
         <TouchableOpacity
         style={styles.botao}>
             <Text  style={styles.texto}>{props.texto}</Text>

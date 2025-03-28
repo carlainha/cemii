@@ -1,14 +1,14 @@
 import React from 'react';
 import { View , Image } from 'react-native';
-import Logo from '../../../assets/logo.png';
+import FotoLogo from '../../../assets/logo.png';
 
 import { styles } from './LogoStyles';
 
-export function Home() {
+export function Logo() {
   return (
     <View>
       <Image 
-      source={Logo}
+      source={FotoLogo}
       style={styles.imagem}/>
     </View>
   );
