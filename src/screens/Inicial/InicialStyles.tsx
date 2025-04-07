@@ -5,15 +5,17 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#faf8d4',
-    marginTop: 100,
+    paddingTop:100,
   },
 
   texto:{
     marginTop:20,
     marginBottom:20,
+    marginLeft:180,
     fontFamily:'Quicksand-Regular',
     color:'#5b3000',
     fontSize:17,
+    width:200,
   }
   
 });

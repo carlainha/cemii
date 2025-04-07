@@ -5,9 +5,10 @@ export const styles = StyleSheet.create({
         width:250,
         backgroundColor:'rgba(127, 169, 199 / 0.6)',
         borderRadius:20,
-        padding:15,
+        paddingTop:15,
+        paddingBottom:15,
         alignItems:'center',
-        borderColor:'#060252',
+        borderColor:'rgba(6,2,82 / 0.6)',
         borderWidth:1,
       },
 
