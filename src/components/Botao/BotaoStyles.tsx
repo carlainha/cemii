@@ -5,9 +5,9 @@ export const styles = StyleSheet.create({
         width:250,
         backgroundColor:'rgba(127, 169, 199 / 0.6)',
         borderRadius:20,
-        paddingTop:15,
-        paddingBottom:15,
+        height:60,
         alignItems:'center',
+        justifyContent:'center',
         borderColor:'rgba(6,2,82 / 0.6)',
         borderWidth:1,
       },
@@ -15,6 +15,6 @@ export const styles = StyleSheet.create({
       texto:{
         color:'#5b3000',
         fontFamily:'Quicksand-Regular',
-        fontSize:20,
+        fontSize:23,
       }
 });

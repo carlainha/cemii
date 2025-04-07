@@ -1,20 +1,22 @@
 import React from 'react';
 import { View , Image, Text, ScrollView } from 'react-native';
-import { Logo } from '../../components/Logo/Logo';
+import  EscolhaImg  from '../../../assets/escolha.png';
 
-
-import { styles } from './InicialStyles';
+import { styles } from './EscolhaStyles';
 import { Botao } from '../../components/Botao/Botao';
 
-export function Inicial() {
+export function Escolha() {
   return (
     <ScrollView style={{backgroundColor:'#faf8d4'}}>
     <View style={styles.container}>
-      <Logo/>
+    <Image
+        source={EscolhaImg}
+        style={styles.imagem}/>
+
       <View style={{marginTop:90, alignItems:'center'}}>
-      <Botao texto='Cadastrar-se' navegacao='Escolha'/>
+      <Botao texto='Cuidador/Enfermeiro' navegacao='Cuidador'/>
       <Text style={styles.texto}>ou</Text>
-      <Botao texto='Entrar' navegacao='Entrar'/>
+      <Botao texto='Familia/Idoso' navegacao='Familia'/>
       </View>
     </View>
     </ScrollView>

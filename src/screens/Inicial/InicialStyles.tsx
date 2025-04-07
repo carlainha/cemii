@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     marginLeft:180,
     fontFamily:'Quicksand-Regular',
     color:'#5b3000',
-    fontSize:17,
+    fontSize:20,
     width:200,
   }
   
