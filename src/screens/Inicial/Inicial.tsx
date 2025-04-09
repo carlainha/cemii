@@ -11,11 +11,11 @@ export function Inicial() {
     <ScrollView style={{backgroundColor:'#faf8d4'}}>
     <View style={styles.container}>
       <Logo/>
-      <View style={{marginTop:90, alignItems:'center'}}>
-      <Botao texto='Cadastrar-se' navegacao='Escolha'/>
-      <Text style={styles.texto}>ou</Text>
-      <Botao texto='Entrar' navegacao='Entrar'/>
-      </View>
+        <View style={{marginTop:80, alignItems:'center'}}>
+          <Botao texto='Cadastrar-se' navegacao='Escolha'/>
+          <Text style={styles.texto}>ou</Text>
+          <Botao texto='Entrar' navegacao='Entrar'/>
+        </View>
     </View>
     </ScrollView>
   );
