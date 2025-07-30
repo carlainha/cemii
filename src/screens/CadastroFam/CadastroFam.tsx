@@ -18,6 +18,21 @@ export function CadastroFam() {
             <Input/>
             <Text style={styles.texto2}>CPF</Text>
             <Input/>
+            <Text style={styles.texto2}>Grau de parentesco</Text>
+            <Input/>
+            <Text style={styles.texto2}>Telefone</Text>
+            <Input/>
+            <Text style={styles.texto2}>Cidade</Text>
+            <Input/>
+            <Text style={styles.texto2}>Estado</Text>
+            <Input/>
+            <Text style={styles.texto2}>Email</Text>
+            <Input/>
+            <Text style={styles.texto2}>Senha</Text>
+            <Input/>
+        </View>
+        <View style={styles.botao}>
+              <Botao texto='Avançar' navegacao='Idoso'/>
         </View>
     </View>
     </ScrollView>

@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    paddingTop: 100,
+    paddingTop: 50,
     backgroundColor:'#faf8d4'
   },
   imagem:{
@@ -28,6 +28,12 @@ export const styles = StyleSheet.create({
     fontSize:20,
     paddingBottom:5,
     paddingLeft:5,
-    marginTop: 20,
+    marginTop: 10,
+  },
+  botao:{
+    marginTop:40,
+    marginBottom:10,
+    alignItems:'center',
+    justifyContent:'center'
   }
 })
